@@ -20,11 +20,11 @@
             const password = document.getElementById("password").value;
             const ConfirmPassword = document.getElementById("ConfirmPassword").value;
             const role = document.getElementById("role").value;
-            if(!name || !email || !password || !ConfirmPassword || !role) {
-                alert("All data is required")
+            if (!name || !email || !password || !ConfirmPassword || !role) {
+                alert("All fields is required")
                 return
             }
-            if(password != ConfirmPassword) {
+            if (password != ConfirmPassword) {
                 alert("Password is not same")
             }
         }

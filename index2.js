@@ -1,30 +1,30 @@
-// const obj= [
-// {
-//     label:'a',
-//     value: 20
-// },
+const obj = [
+    {
+        label: 'a',
+        value: 20
+    },
+    {
+        label: 'b',
+        value: 30
 
-// {
-//     label:'b',
-//     value: 30
+    },
+    {
+        label: 'c',
+        value: 25
+    }
+];
 
-// },
-// {
-//     label:'c',
-//     value: 25
-// }
-// ];
-// // obj[1].value = 31;
-// // console.log(obj);
-// const updatedObj = obj.map(item => {
-//     if (item.label === 'b') {
-//         return { ...item, value: 31 }; 
-//     }
-//     return item;
-// });
-// console.log(updatedObj);
+const updatedObj = obj.map(item => {
+    if (item.label === 'b') {
+        return { ...item, value: 31 };
+    }
+    return item;
+});
+console.log(updatedObj);
+// obj[1].value = 31;
+// console.log(obj);
 
-const firstname="leen";
+const firstname = "leen";
 console.log(firstname.charAt(0).toUpperCase() + firstname.slice(1));
 console.log(firstname.toUpperCase());
 
